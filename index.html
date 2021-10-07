@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+
+
+<body>
+    <form class="form">
+        <h1>Say Hello!</h1>
+
+        <label>Your Name
+            <div>
+                <input class="input-item" type="text" placeholder="Enter your name" required>
+            </div>
+        </label>
+
+        <label>Email
+            <div>
+                <input class="input-item" type="email" placeholder="Enter your email address" required>
+            </div>
+        </label>
+
+        <div class="selectdiv"> 
+            <label>Needed Services
+                <div>
+                    <select class ="input-item" name="services" id="" required>
+                        <option value="default" class="bold"> Choose Services</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+
+        <div class="selectdiv"> 
+            <label>Budget
+                <div>
+                    <select class="input-item" name="budget" id="" required>
+                        <option value="budget" class="bold"><span>Select Budget</span></option>
+                    </select>
+                </div>
+            </label>
+        </div>
+
+        <label>
+            Message
+            <div>
+                <textarea class="top-pad text-box-size" name="" id="" cols="50" rows="10" placeholder="Your message here..." required></textarea>
+            </div>
+        </label>
+
+        
+        <button class="submit">
+            Submit &#8594;	
+        </button>
+
+    </form>
+</body>
+
+
+
+
+</html>
